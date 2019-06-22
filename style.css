@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+.numbers,
+.operators,
+.equal,
+.clear {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.display {
+	width: 300px;
+	height: 60px;
+	background: #458556;
+	text-align: center;
+	vertical-align: middle;
+	padding: 15px;
+}
