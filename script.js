@@ -41,13 +41,13 @@ function numsToNumbers(num1, num2) {
 }
 
 function displayResult() {
-    numsToNumbers(num1, num2)
+    numsToNumbers(num1, num2);
     result = operate(num1Number, num2Number);
     let resultElement = document.querySelector('.displayNumbers');
     resultElement.innerText = `${result.toFixed(2)}`;
     num1Number = '';
     num2Number = '';
-    num1 = result.toString().toFixed(2);
+    num1 = result.toString();
     operator = '';
     num2 = '';
 }
