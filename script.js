@@ -1,8 +1,8 @@
-var num1 = '';
-var num2 = '';
-var operator = '';
+let num1 = '';
+let num2 = '';
+let operator = '';
 const regExForOperators = /([+/*-])+/;
-var result = '';
+let result = '';
 
 let clearButton = document.getElementById('clear').addEventListener('click', clearDisplay);
 document.querySelector('.equal').addEventListener('click', displayResult);
